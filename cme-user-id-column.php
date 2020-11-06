@@ -37,9 +37,8 @@ add_filter('manage_users_columns', 'caughtmyeye_add_user_id_column');
  
 // Display the User ID Column
 function caughtmyeye_show_user_id_column_content($value, $column_name, $user_id) {
-    $user = get_userdata( $user_id );
-	if ( 'user_id' == $column_name )
-		return $user_id;
+    if ( 'user_id' == $column_name )
+        return $user_id;
     return $value;
 }
 add_action('manage_users_custom_column',  'caughtmyeye_show_user_id_column_content', 10, 3);
