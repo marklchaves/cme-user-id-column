@@ -1,6 +1,8 @@
 # caught my eye Sortable User ID Column Plugin
 
-This WordPres plugin creates custom column to display a sortable user ID column on the Users page.
+This WordPres plugin creates a custom sortable user ID column on the Users page.
+
+This is helpful if you're using WordPress user ID tracking in Google Analytics and need to quickly lookup the user account details (e.g., name, login, etc.).
 
 ---
 
